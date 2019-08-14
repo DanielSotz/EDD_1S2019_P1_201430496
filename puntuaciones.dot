@@ -1,0 +1,23 @@
+digraph G { rankdir=LR
+node [shape=record];
+nod0[label = "{<f1> (j2,2)|<f2> }"];
+nod0-> nod1;
+nod1[label = "{<f1> (j3,3)|<f2> }"];
+nod1-> nod2;
+nod2[label = "{<f1> (j4,4)|<f2> }"];
+nod2-> nod3;
+nod3[label = "{<f1> (j5,5)|<f2> }"];
+nod3-> nod4;
+nod4[label = "{<f1> (j6,6)|<f2> }"];
+nod4-> nod5;
+nod5[label = "{<f1> (j7,7)|<f2> }"];
+nod5-> nod6;
+nod6[label = "{<f1> (j8,8)|<f2> }"];
+nod6-> nod7;
+nod7[label = "{<f1> (j9,9)|<f2> }"];
+nod7-> nod8;
+nod8[label = "{<f1> (j10,10)|<f2> }"];
+nod8-> nod9;
+nod9[label = "{<f1> (j11,11)|<f2> }"];
+nod9-> null;
+}

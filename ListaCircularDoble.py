@@ -1,5 +1,5 @@
 class NodoCircular:
-    def __init__(self,  usuario = None, idusuario = None):
+    def __init__(self,  usuario, idusuario):
         self.idusuario = idusuario     
         self.usuario = usuario
         self.siguiente = None       
