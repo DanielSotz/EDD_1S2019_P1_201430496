@@ -228,7 +228,7 @@ def jugar(name_jug, continue_juego, direccion):
         lista_serpiente = resetear_snake()
         pila_score = resetear_pila_score()
         pila_total_puntos = resetear_pila_score()
-        bloques = resetear_pardes()
+        bloques = resetear_bloques()
     elif continue_juego == True:
         key = direccion
         tecla_antes = direccion
@@ -282,7 +282,7 @@ def jugar(name_jug, continue_juego, direccion):
                 if tecla == 10:
                     pila_score = resetear_pila_score()
                     lista_serpiente = resetear_snake()
-                    bloques = resetear_pardes()
+                    bloques = resetear_bloques()
 
                     print_title(window,name_jug)
                     xpos = 5        

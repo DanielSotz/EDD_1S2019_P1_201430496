@@ -1,0 +1,17 @@
+digraph G { rankdir=LR
+node [shape=record];
+node0[label = "{<f0>|<f1> (7,12)|<f2> }"];
+node_n1[label = "null"];
+node0:f0 -> node_n1;
+node0-> node1;
+node1-> node0;
+node1[label = "{<f0>|<f1> (6,12)|<f2> }"];
+node1-> node2;
+node2-> node1;
+node2[label = "{<f0>|<f1> (5,12)|<f2> }"];
+node2-> node3;
+node3-> node2;
+node3[label = "{<f0>|<f1> (4,12)|<f2> }"];
+node3-> node_n2;
+node_n2[label = "null"];
+}
